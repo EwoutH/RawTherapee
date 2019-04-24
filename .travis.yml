@@ -1,17 +1,7 @@
+language: cpp
 sudo: required
 dist: trusty
-
-language: cpp
-
-compiler:
-  - gcc
-
-os:
-  - linux
-
-#branches:
-#  only:
-#  - master
+compiler: gcc
 
 notifications:
   irc:
